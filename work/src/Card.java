@@ -22,4 +22,8 @@ public class Card {
 	public Card getCard() {
 		return new Card(suit, rank);
 	}
+	
+	public void showCard() {
+		System.out.println(rank.toString() + " of " + suit.toString());
+	}
 }

@@ -19,7 +19,8 @@ public class TestDeck {
 		}
 		
 		Card rand_card = mydeck.getRandomCard();
-		System.out.println(rand_card.getRank().toString() + " of " + rand_card.getSuit().toString());
+		// System.out.println(rand_card.getRank().toString() + " of " + rand_card.getSuit().toString());
+		rand_card.showCard();
 		
 	}
 }
