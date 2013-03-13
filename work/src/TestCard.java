@@ -20,7 +20,7 @@ public class TestCard {
 		for (Suit suit : Suit.values()) {
 			// System.out.println(suit.toString());
 			for (Rank rank : Rank.values()) {
-				System.out.println(suit.toString() + " " + rank.toString());
+				System.out.println(rank.toString() + " of " + suit.toString());
 			}
 		}
 	}
