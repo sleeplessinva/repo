@@ -6,8 +6,6 @@ public interface Relatable {
     // if this is greater // than, equal 
     // to, or less than other
     public boolean isLargerThan(Relatable other);
-    
-    
-    
+    public boolean isLessThan(Relatable other);
 }
 
