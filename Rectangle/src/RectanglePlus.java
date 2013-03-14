@@ -1,5 +1,5 @@
 public class RectanglePlus extends Rectangle 
-    implements Relatable {
+    implements RelatablePlus {
     public int width = 0;
     public int height = 0;
     public Point origin;
@@ -48,6 +48,14 @@ public class RectanglePlus extends Rectangle
         }
         else
         	return true;
+    }
+    
+    public boolean isEqualTo(Relatable other) {
+        RectanglePlus otherRect = (RectanglePlus)other;
+        if (this.getArea() == otherRect.getArea()) {
+        	return true;
+        }
+        else return false;    	
     }
     
      
